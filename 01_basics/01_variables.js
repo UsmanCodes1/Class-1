@@ -5,8 +5,6 @@ let accountPassword= "123456789"
 accountCity="Sukkkur"
 let accountState;
 
-
-
 accountEmail="hy@accountEmail.com"
 accountPassword="1333"
 accountCity="karachi"
