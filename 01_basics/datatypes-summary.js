@@ -41,3 +41,24 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive)  Heap (Non primitive)
+
+// let subject="Math"
+// let anotherSubject=subject
+// anotherSubject="Computer Science"
+// console.log(subject);
+// console.log(anotherSubject);
+
+
+let userOne = {
+    Name:"Umair",
+    email:"hello@.com"
+}
+let userTwo = userOne
+userTwo.email="Hi@.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

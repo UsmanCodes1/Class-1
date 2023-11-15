@@ -13,7 +13,7 @@ let valueInNumber= Number(score)
 // "Convert in to Number  33" => 33   
 // Convert in to Number  "33abc" => Nan    Not a Number 
 // true =1; false=0;
-// "Usman"=True; "" = False
+// "Usman"=True;   "" = False
 
 let isLoggedIn= 1
   let booleanIsLoggedIn=Boolean(isLoggedIn)
@@ -59,10 +59,6 @@ let str3= str1 + str2
 let gameCounter=100
 ++gameCounter;
 console.log(gameCounter);
-
-
-
-
 
 
 // Increment Operator
