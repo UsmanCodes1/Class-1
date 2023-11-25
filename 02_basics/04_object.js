@@ -1,4 +1,4 @@
-// const tinderUser = new Object()
+// const tinderUser = new Object() Single ton
 const tinderUser = {}
 
 tinderUser.id = "123abc"
@@ -32,16 +32,16 @@ const obj3 = {...obj1, ...obj2}
 
 const users = [
     {
-        id: 1,
-        email: "h@gmail.com"
+        id: 4,
+        email: "hdfhddh@gmail.com"
     },
     {
         id: 1,
-        email: "h@gmail.com"
+        email: "hdvgdi@gmail.com"
     },
     {
-        id: 1,
-        email: "h@gmail.com"
+        id: 11,
+        email: "hdvosvdoi@gmail.com"
     },
 ]
 
@@ -50,7 +50,7 @@ users[1].email
 
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+// console.log(Object.entries(tinderUser)); Convert all enteries in to sub array. 
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
